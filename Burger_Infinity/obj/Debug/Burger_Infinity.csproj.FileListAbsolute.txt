@@ -1,0 +1,14 @@
+D:\Burger\Burger_Infinity\Burger_Infinity\bin\Debug\Burger_Infinity.exe.config
+D:\Burger\Burger_Infinity\Burger_Infinity\bin\Debug\Burger_Infinity.exe
+D:\Burger\Burger_Infinity\Burger_Infinity\bin\Debug\Burger_Infinity.pdb
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.csproj.AssemblyReference.cache
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.Form1.resources
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.Properties.Resources.resources
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.csproj.GenerateResource.cache
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.csproj.CoreCompileInputs.cache
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.exe
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.pdb
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.Login.resources
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.Home.resources
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.Registration_Form.resources
+D:\Burger\Burger_Infinity\Burger_Infinity\obj\Debug\Burger_Infinity.Contact.resources
