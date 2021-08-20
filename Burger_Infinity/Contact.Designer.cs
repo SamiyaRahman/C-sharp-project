@@ -32,13 +32,13 @@ namespace Burger_Infinity
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Contact));
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -70,6 +70,62 @@ namespace Burger_Infinity
             this.panel1.Size = new System.Drawing.Size(928, 616);
             this.panel1.TabIndex = 1;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label2.Location = new System.Drawing.Point(17, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(283, 72);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Contact us:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label4.Location = new System.Drawing.Point(60, 241);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(553, 52);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Bashundhara,Dhaka,Bangladesh";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label3.Location = new System.Drawing.Point(61, 188);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(283, 52);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Samiya Rahman";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label6.Location = new System.Drawing.Point(61, 342);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(516, 52);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Mobile Number: 01744933753";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label5.Location = new System.Drawing.Point(60, 292);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(686, 52);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Email:samiyarahmansami123@gmail.com";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightSlateGray;
@@ -89,62 +145,7 @@ namespace Burger_Infinity
             this.label1.Size = new System.Drawing.Size(749, 72);
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome To Our Burger Infinity";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label2.Location = new System.Drawing.Point(17, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(283, 72);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Contact us:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label4.Location = new System.Drawing.Point(60, 241);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(558, 53);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Bashundhara,Dhaka,Bangladesh";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label3.Location = new System.Drawing.Point(61, 188);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(286, 53);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Samiya Rahman";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label6.Location = new System.Drawing.Point(61, 342);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(523, 53);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Mobile Number: 01744933753";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label5.Location = new System.Drawing.Point(60, 292);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(697, 53);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Email:samiyarahmansami123@gmail.com";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // pictureBox1
             // 

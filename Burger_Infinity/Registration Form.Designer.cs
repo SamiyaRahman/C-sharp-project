@@ -114,7 +114,7 @@ namespace Burger_Infinity
             this.JcTxt.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JcTxt.FormattingEnabled = true;
             this.JcTxt.Items.AddRange(new object[] {
-            "Manager",
+            "Admin",
             "Vendor",
             "Customer"});
             this.JcTxt.Location = new System.Drawing.Point(317, 376);
